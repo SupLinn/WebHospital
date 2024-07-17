@@ -1,0 +1,61 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #00529b;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navItem {
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navLink:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .callUsIcon {
+    margin-right: 5px;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #00529b;
+    border: 1px solid #004080;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .dropdownItem {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdownItem:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
